@@ -6,7 +6,7 @@ import math
 
 def trigonometric(a,  operation: str):
     # из-за особенностей ЯП Python градусы необходимо перевести в радианы.
-    sin_a = math.cos(math.radians(a))
+    sin_a = math.sin(math.radians(a))
     cos_a = math.cos(math.radians(a))
     tan_a = math.tan(math.radians(a))
 
