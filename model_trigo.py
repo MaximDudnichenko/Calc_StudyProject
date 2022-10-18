@@ -16,7 +16,7 @@ def trigonometric(a,  operation: str):
         string = 'cos(' + str(a) + ') = ' + str(cos_a)
     elif operation == 'tan':
         string = 'tan(' + str(a) + ') = ' + str(tan_a)
-    elif operation == 'tan':
+    elif operation == 'atan':
         string = 'arctan(' + str(a) + ') = ' + str(1/tan_a)
     else:
         string = 'Wrong data'
